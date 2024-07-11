@@ -1,8 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+Step 1 - pull all code from repstry
+Step 2 - cd directory-name
+Step 3 - npm intsall
+Step 4 npm start
 
 In the project directory, you can run:
 
