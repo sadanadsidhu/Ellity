@@ -1,0 +1,125 @@
+body {
+  background-color: rgba(0, 0, 0, 0.303);
+}
+.main-class-form {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+}
+form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 750px;
+  height: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+}
+
+.desktop-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 600px;
+  height: Fixed (40px) px;
+  top: 80px;
+  left: 20px;
+  gap: 50px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffce22;
+}
+.all-pages-box {
+  height: 40px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 80px;
+  background-color: #ffffff;
+  padding: 80px, 150px, 8px, 22px;
+  padding-left: 20px;
+  padding-top: 10px;
+  left: 20px;
+
+  border-radius: 4px;
+}
+.all-pages {
+  /* padding-bottom: 80px; */
+}
+
+span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #1f2128;
+  width: 64px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+.checkbox-custom-1 {
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  left: 20px;
+  background-color: red;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  padding-top: 80;
+}
+.error-message {
+  color: red; /* Color of the error message */
+  font-size: 14px; /* Font size of the error message */
+  font-weight: bold; /* Make the text bold */
+  padding: 10px; /* Padding inside the error message box */
+  background-color: #f8d7da; /* Background color of the error message */
+  border: 1px solid #f5c6cb; /* Border color of the error message */
+  border-radius: 4px; /* Rounded corners */
+  position: absolute;
+  top: 20px; /* Distance from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  z-index: 1000; /* Make sure it is above other elements */
+  text-align: center; /* Center text */
+}
+.checkbox-row {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  flex-direction: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+}
